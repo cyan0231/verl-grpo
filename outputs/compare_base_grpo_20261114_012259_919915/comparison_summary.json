@@ -1,0 +1,47 @@
+{
+  "base": {
+    "model": "base",
+    "model_path": "/home/hong/cyan/homework-5/model/Qwen2.5-Math-1.5B",
+    "num_questions": 1319,
+    "correct": 7,
+    "accuracy": 0.00530705079605762,
+    "extractable_answers": 111,
+    "extractable_rate": 0.0841546626231994,
+    "length_limited_answers": 1282,
+    "length_limited_rate": 0.9719484457922669,
+    "mean_generated_tokens": 1005.5943896891584,
+    "prompt_token_ids_sha256": "de4e04c163c43d270bc84224123022f66a551d95136bb9234de3f49bca1f9cc2",
+    "versions": {
+      "torch": "2.6.0",
+      "vllm": "0.8.5",
+      "transformers": "4.51.3",
+      "verl": "0.5.0"
+    }
+  },
+  "grpo_step_160": {
+    "model": "grpo_step_160",
+    "model_path": "/home/hong/cyan/verl-grpo/outputs/grpo_formal_20261113_205104_280464/hf_model_step_160",
+    "num_questions": 1319,
+    "correct": 1016,
+    "accuracy": 0.7702805155420773,
+    "extractable_answers": 1311,
+    "extractable_rate": 0.9939347990902199,
+    "length_limited_answers": 6,
+    "length_limited_rate": 0.004548900682335102,
+    "mean_generated_tokens": 95.41243366186505,
+    "prompt_token_ids_sha256": "de4e04c163c43d270bc84224123022f66a551d95136bb9234de3f49bca1f9cc2",
+    "versions": {
+      "torch": "2.6.0",
+      "vllm": "0.8.5",
+      "transformers": "4.51.3",
+      "verl": "0.5.0"
+    }
+  },
+  "accuracy_delta_percentage_points": 76.49734647460197,
+  "paired": {
+    "both_correct": 7,
+    "both_wrong": 303,
+    "wrong_to_correct": 1009,
+    "correct_to_wrong": 0
+  }
+}

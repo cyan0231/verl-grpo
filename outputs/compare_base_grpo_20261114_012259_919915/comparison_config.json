@@ -1,0 +1,37 @@
+{
+  "models": {
+    "base": "/home/hong/cyan/homework-5/model/Qwen2.5-Math-1.5B",
+    "grpo_step_160": "/home/hong/cyan/verl-grpo/outputs/grpo_formal_20261113_205104_280464/hf_model_step_160"
+  },
+  "test_path": "/home/hong/cyan/verl-grpo/data/gsm8k/test.parquet",
+  "test_sha256": "313e7a4536baf798314bc40bfef341b88c33b69d6a0961de529fbd944c5d4739",
+  "tokenizer_path": "/home/hong/cyan/homework-5/model/Qwen2.5-Math-1.5B",
+  "generation_config_path": "/home/hong/cyan/homework-5/model/Qwen2.5-Math-1.5B",
+  "generation_config_sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+  "sampling": {
+    "n": 1,
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "top_k": -1,
+    "min_p": 0.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "max_tokens": 1024,
+    "min_tokens": 0,
+    "ignore_eos": false,
+    "seed": 42
+  },
+  "engine": {
+    "dtype": "bfloat16",
+    "tensor_parallel_size": 1,
+    "max_model_len": 2048,
+    "max_num_seqs": 64,
+    "max_num_batched_tokens": 2048,
+    "gpu_memory_utilization": 0.9,
+    "enforce_eager": true,
+    "enable_chunked_prefill": false,
+    "seed": 42
+  },
+  "num_questions": 1319
+}

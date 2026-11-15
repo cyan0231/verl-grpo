@@ -1,0 +1,27 @@
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.tmp
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.whl
+.venv/
+venv/
+.env
+.env.*
+.cache/
+*.log
+checkpoints/
+hf_model*/
+pytorch_model*.bin
+data/raw/
+metadata/
+
+# Only publish the confirmed comparison configuration and summary.
+/outputs/*
+!/outputs/compare_base_grpo_20261114_012259_919915/
+/outputs/compare_base_grpo_20261114_012259_919915/*
+!/outputs/compare_base_grpo_20261114_012259_919915/comparison_config.json
+!/outputs/compare_base_grpo_20261114_012259_919915/comparison_summary.json
